@@ -20,9 +20,10 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  width: 240px;
+  width: 140px;
   background: #45ada8;
   padding: 6px 14px;
+  transition: all 0.5s ease;
 }
 
 .sidebar .logo_content .logo {
@@ -165,6 +166,7 @@ body {
 
 .profile .profile_details .name_job {
   margin-left: 10px;
+  color: black;
 }
 
 .profile .profile_details .name {
