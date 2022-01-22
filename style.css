@@ -1,6 +1,12 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
 
+:root {
+  --color-gray: #2d3540;
+  --color-light-gray: #91a0ac;
+  --color-white: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +27,7 @@ body {
   left: 0;
   height: 100%;
   width: 78px;
-  background: #45ada8;
+  background: var(--color-gray);
   padding: 6px 14px;
   transition: all 0.5s ease;
 }
@@ -31,7 +37,7 @@ body {
 }
 
 .sidebar .logo_content .logo {
-  color: #fff;
+  color: var(--color-white);
   display: flex;
   height: 50px;
   width: 100%;
@@ -58,7 +64,7 @@ body {
 
 .sidebar #btn {
   position: absolute;
-  color: #fff;
+  color: var(--color-white);
   left: 50%;
   top: 6px;
   font-size: 20px;
@@ -94,7 +100,7 @@ body {
   border-radius: 6px;
   height: 35px;
   width: 122px;
-  background: #fff;
+  background: var(--color-white);
   line-height: 35px;
   text-align: center;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -123,27 +129,27 @@ body {
   border-radius: 12px;
   outline: none;
   border: none;
-  background: #61f1ea;
+  background: var(--color-light-gray);
   padding-left: 50px;
   font-size: 18px;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .sidebar ul li .bx-search {
   position: absolute;
   z-index: 99;
-  color: #fff;
+  color: var(--color-white);
   font-size: 22px;
   transition: all 0.5s ease;
 }
 
 .sidebar ul li .bx-search:hover {
-  background: #fff;
-  color: #61f1ea;
+  background: var(--color-white);
+  color: var(--color-light-gray);
 }
 
 .sidebar ul li a {
-  color: #fff;
+  color: var(--color-white);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -153,8 +159,8 @@ body {
 }
 
 .sidebar ul li a:hover {
-  color: #45ada8;
-  background: #fff;
+  color: black;
+  background: var(--color-white);
 }
 
 .sidebar ul li i {
@@ -178,7 +184,7 @@ body {
 
 .sidebar .profile_content {
   position: absolute;
-  color: #fff;
+  color: var(--color-white);
   bottom: 0;
   left: 0;
   width: 100%;
@@ -194,7 +200,7 @@ body {
 }
 
 .sidebar.active .profile_content .profile {
-  background: #61f1ea;
+  background: var(--color-light-gray);
 }
 
 .profile_content .profile .profile_details {
@@ -219,12 +225,11 @@ body {
 
 .profile .profile_details .name_job {
   margin-left: 10px;
-  color: black;
 }
 
 .profile .profile_details .name {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .profile .profile_details .job {
   font-size: 12px;
@@ -241,7 +246,7 @@ body {
   border-radius: 12px;
   text-align: center;
   transition: all 0.4s ease;
-  background: #61f1ea;
+  background: var(--color-light-gray);
 }
 
 .sidebar.active .profile #log_out {
