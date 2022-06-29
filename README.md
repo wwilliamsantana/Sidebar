@@ -11,9 +11,8 @@
 
 ## :computer: Sobre  
 
-Desafio Sidebar proposto pela Rocketseat.
-
-
+Desafio Sidebar proposto pela Rocketseat. 
+Projeto desenvolvido com intuito de praticar conceitos de JS, CSS, JS 
 ## :rocket: Techs
 
 <ul>
